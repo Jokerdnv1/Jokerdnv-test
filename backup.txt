@@ -1,0 +1,19 @@
+document.getElementById("Yes").addEventListener("click", function() {
+        var noButton = document.getElementById("Yes");
+        noButton.style.width = "150px"; // Increase button width
+        noButton.innerText = "Maybe next time"; // Change button text
+        document.getElementById("responce").innerText = "That's okay, maybe next time!";
+       });
+
+        document.getElementById("No").addEventListener("click", function() {
+          var noButton = document.getElementById("No");
+          noButton.style.width = "150px"; // Increase button width
+          noButton.innerText = "Maybe next time"; // Change button text
+          document.getElementById("No2").innerText = "That's okay, maybe next time!";
+        });
+
+        document.getElementById("No2").addEventListener("click", function() {
+          var noButton = document.getElementById("No2");
+          noButton.style.width = "150px"; // Increase button width
+          noButton.innerText = "Maybe next time 33"; // Change button text
+        });
